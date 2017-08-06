@@ -1,3 +1,7 @@
+/* 
+ *  DOCUMENT 
+ */ 
+
 body{
     background-color: #120f14;
     color: #eef0f2;
@@ -12,15 +16,103 @@ h1{
 	text-align: center;
 }
 
-h1.header{
-	font-size: 50px;
-	font-weight: 700; 
-}
-
-h2.header{
-	font-size: 25px;
+a{
+	color:#41ead4;
 }
 
 .section-title{
 	font-size: 35px; 
+	color: #584b53;
+}
+
+.flex-container{
+	display: flex;
+	display: -webkit-flex;
+	justify-content:space-around;
+	text-align: left;
+	align-items: center;
+}
+/* 
+ * HEADER
+ */ 
+
+#header h1{
+	font-size: 50px;
+	font-weight: 700; 
+	margin-top: 100px;
+	margin-bottom: 75px;
+}
+
+#header h2{
+	font-size: 25px;
+}
+
+#header h3{
+	font-weight: 400;
+}
+
+.highlight{
+	color: #C200FB;
+}
+
+/*
+ * ABOUT 
+ */
+
+#about-paragraph{
+/*	width: 200px;
+*/	text-align: justify;
+	/*flex: 1 0 60%;*/
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+#headshot{
+	max-width: 90%;
+	padding-left: 50px;
+	height: auto;
+	flex: 1 0 70%;
+}
+
+
+/*
+ * SKILLS
+ */ 
+
+#skills div[class="flex-container"]{
+	align-items: baseline;
+	justify-content: space-around;
+}
+#language-content div{
+/*	padding-top: 30px;
+*/}
+
+.skills-list{
+	text-transform: uppercase;
+	line-height: 1.5;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+/*
+* SMALL SCREENS
+*/
+
+@media all and (max-width: 600px) {
+  .flex-container{
+    flex-direction: column;
+	text-align: center;
+	justify-content:space-around;
+  }
+  #skills-content{
+  	justify-content: center;
+  }
+/*  #headshot{
+  	order: 1;
+  }
+  #about-paragraph{
+  	order:2;
+  }*/
+
 }

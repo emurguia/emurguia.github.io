@@ -11,9 +11,9 @@
 
 <body>
 <!--HEADER--> 
-<div class="header">
-    <h1>Eleanor Murguia is a Software Engineer</h1>
-    <div> 
+<div id="header">
+    <h1>Eleanor Murguia is a <span class="highlight"> Software Engineer </span> </h1>
+    <div class="flex-container"> 
         <div> 
             <h2>Studying</h2>
             <h3>at Columbia University</h3>
@@ -30,54 +30,89 @@
 </div> 
 
 <!--ABOUT SECTION--> 
-<div class="about"> 
+<div id="about"> 
     <h1 class="section-title"> About </h1>
-    <div> 
+    <div class="flex-container"> 
         <div> 
-           <p> Eleanor is a junior studying Computer Science at Barnard College of Columbia University. She has experience in iOS, backend and frontend development, and has been a memeber of Barnard's Athena Digital Design Agency since 2015.</p> 
+            <img id="headshot" src="assets/Eleanor_headshot.jpg" alt="Eleanor Headshot">
         </div> 
         <div> 
-            <img src="/assets/Eleanor_headshot.jpg" alt="Eleanor Headshot">    
+           <p id="about-paragraph"> Eleanor is a junior studying Computer Science at Barnard College of Columbia University. She has experience in iOS, backend and frontend development, and has been a memeber of Barnard's Athena Digital Design Agency since 2015.</p> 
         </div> 
+        
     </div> 
 </div> 
 
 <!---SKILLS SECTION--> 
-<div class="skills"> 
+<div id="skills"> 
     <h1 class="section-title"> Skills </h1> 
-    <div>
-        <div>
-             <h2> Languages </h2> 
-              <ul> 
+    <div class="flex-container" id="language-content">
+        <h2> Languages </h2> 
+        <div> 
+<!--              <h3> Use Often </h3> 
+ -->              <ul class="skills-list"> 
                  <li> Java </li> 
                  <li> Swift </li> 
                  <li> C </li> 
+            </ul> 
+        </div> 
+        <div> 
+<!--             <h3> Use Occasionally </h3>
+ -->             <ul class="skills-list"> 
                  <li> HTML </li> 
                  <li> CSS </li> 
                  <li> JavaScript </li> 
                  <li> C++ </li> 
-             </ul> 
-        </div>  
-        <div>  
-             <h2> Tools </h2> 
+            </ul>
+        </div>
+        <h2> Tools </h2>
+         <ul class="skills-list"> 
+             <li> Git/GitHub </li> 
+             <li> WordPress </li> 
+             <li> Bootstrap </li> 
+             <li> Xcode </li>  
+         </ul>
+    </div>
+  <!--   <div class="flex-container" id="tool-content">
+             <h2> Tools </h2>
              <ul> 
                  <li> Git/GitHub </li> 
                  <li> WordPress </li> 
                  <li> Bootstrap </li> 
                  <li> Xcode </li>  
-             </ul> 
-        </div> 
-    </div>
+             </ul>
+             <div> </div> 
+    </div>  -->
 </div> 
 
 <!---PROJECTS SECTION--> 
-<div class="projects"> 
+<div id="projects"> 
     <h1 class="section-title"> Projects </h1> 
-    <div> 
-    	<h2> BroadwayBestie </h2> 
-    	</h3> An iOS app that makes it easier to enter online lotteries for Broadway shows.</h3> 
-    	<h4> Langagues Used: Swift, JavaScript </h4> 
+    <div class="flex-container"> 
+        <div> 
+        	<h2> BroadwayBestie </h2> 
+        	</h3> An iOS app that makes it easier to enter online lotteries for Broadway shows.</h3> 
+        	<h4> Langagues Used: Swift, JavaScript </h4> 
+        </div> 
     </div> 
 </div> 
+
+<!--CONTACT SECTION--> 
+<div id="contact">
+    <h1 class="section title"> Contact </h1> 
+    <div class="flex-container">
+        <div> 
+            <h2> Email </h2> 
+            <h3> eleanormurguia@gmail.com </h3> 
+        </div> 
+        <div> 
+            <h2> GitHub </h2> 
+            <a href="www.github.com/emurguia"> github.com/emurguia </a>
+        </div> 
+        <div> 
+            <h2> LinkedIn </h2> 
+            <a href="www.linkedin.com/in/eleanormurguia"> www.linkedin.com/in/eleanormurguia </a> 
+        </div> 
+    </div>
 </body>
 </html>
