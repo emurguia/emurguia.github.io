@@ -1,118 +1,66 @@
-/* 
- *  DOCUMENT 
- */ 
-
 body{
-    background-color: #120f14;
-    color: #eef0f2;
-    font-family: 'Open Sans', Arial, sans-serif; 
+	font-family: 'Raleway', sans-serif;
+	background-color: #F7F7F7;
 }
 
-ul{
-	list-style: none;
+header{
+	text-align: center;
 }
 
 h1{
-	text-align: center;
+	position: relative;
+	z-index: 2; 
+	margin-bottom: 15px; 
+	top: 30px; 
+}
+h2{
+	font-size: 16px; 
+	position: relative;
+	z-index: 2; 
+	top: 30px;
+
 }
 
-a{
-	color:#41ead4;
+.info{
+	position: relative;
+	z-index: 2; 
+	text-align: center; 
+	top: 60px;
+	font-size: 14px; 
+	margin-left: 10px; 
+	margin-right: 10px; 
+	margin-top: 1px; 
 }
-
-.section-title{
-	font-size: 35px; 
-	color: #584b53;
-}
-
-.flex-container{
-	display: flex;
-	display: -webkit-flex;
-	justify-content:space-around;
-	text-align: left;
-	align-items: center;
-}
-/* 
- * HEADER
- */ 
-
-#header h1{
-	font-size: 50px;
-	font-weight: 700; 
-	margin-top: 100px;
-	margin-bottom: 75px;
-}
-
-#header h2{
-	font-size: 25px;
-}
-
-#header h3{
-	font-weight: 400;
-}
-
-.highlight{
-	color: #C200FB;
-}
-
-/*
- * ABOUT 
- */
-
-#about-paragraph{
-/*	width: 200px;
-*/	text-align: justify;
-	/*flex: 1 0 60%;*/
-	padding-left: 50px;
-	padding-right: 50px;
-	font-size: 18px;
-	line-height: 1.5;
-}
-
-#headshot{
-	max-width: 90%;
-	padding-left: 50px;
-	height: auto;
-	flex: 1 0 70%;
+.icons{
+	height: 250px;
+	width: 250px;
+	border: 5px solid gray;
+	border-radius: 50%;
+	padding: 2px;
+	margin-left: 400px; 
+	margin-bottom: -110px;
+	margin-top: -110px; 
 }
 
 
-/*
- * SKILLS
- */ 
-
-#skills div[class="flex-container"]{
-	align-items: baseline;
-	justify-content: space-around;
+a:hover{
+	opacity: 0.5;
+	filter: alpha(opacity=50);
 }
-#language-content div{
-/*	padding-top: 30px;
-*/}
 
-.skills-list{
-	text-transform: uppercase;
-	line-height: 1.5;
-	font-size: 20px;
-	letter-spacing: 1px;
+.rectangle{
+	width:250px;
+	height: 250px;
+	background: gray;
+	border-radius: 50%;
+	position: relative;
+	z-index: 1; 
 }
-/*
-* SMALL SCREENS
-*/
 
-@media all and (max-width: 600px) {
-  .flex-container{
-    flex-direction: column;
-	text-align: center;
-	justify-content:space-around;
-  }
-  #skills-content{
-  	justify-content: center;
-  }
-/*  #headshot{
-  	order: 1;
-  }
-  #about-paragraph{
-  	order:2;
-  }*/
+.top-links{
+	margin-left: 200px; 
+}
 
+.foot{
+	margin-top: 110px;
 }

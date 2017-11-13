@@ -1,118 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Eleanor Murguia</title> 
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700,700i" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Eleanor Murguia is a CS Major at Columbia University">
+    <meta name="author" content="Eleanor Murguia">
+    <meta name="keywords" content="Barnard, Columbia, Developer, Front End">
+
+    <title>Eleanor Murguia</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!--Eleanor Custom CSS-->
+    <link href="css/eleanor_custom.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 
-<body>
-<!--HEADER--> 
-<div id="header">
-    <h1>Eleanor Murguia is a <span class="highlight"> Software Engineer </span> </h1>
-    <div class="flex-container"> 
-        <div> 
-            <h2>Studying</h2>
-            <h3>at Columbia University</h3>
-        </div>
-        <div> 
-            <h2>Currently</h2>
-            <h3 >Building an iOS app at <a href="https://www.makeschool.com/summer-academy" target="_blank">Make School</a></h3>
-        </div>
-        <div> 
-            <h2>Contact</h2> 
-            <h3>eleanormurguia@gmail.com</h3>
-        </div>
-    </div> 
-</div> 
+<body id="page-top" class="index">
 
-<!--ABOUT SECTION--> 
-<div id="about"> 
-    <h1 class="section-title"> About </h1>
-    <div class="flex-container"> 
-        <div> 
-            <img id="headshot" src="assets/Eleanor_headshot.jpg" alt="Eleanor Headshot">
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="#page-top">Eleanor Murguia</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#experience">Experience</a>
+                    </li>
+                      <li class="page-scroll">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    </li>
+                      <li class="page-scroll">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+
+        <!--new header-->
+          <div class="container dark-background">
+              <div class="col-lg-12">
+                    <div class="intro-text">
+                        <h1>Eleanor Murguia is a <span class="highlight">Software Engineer</span></h1>
+                    </div>
+                </div>
+        <div class="container">
+            <div class="col-md-4 current-info"> 
+                <h2>Studying</h2>
+                <h3>at Columbia University</h3>
+            </div>
+            <div class="col-md-4 current-info"> 
+                <h2>Currently</h2>
+                <h3 >Product R&D Intern at Applecart</h3>
+            </div>
+            <div class="col-md-4 current-info"> 
+                <h2>Contact</h2> 
+                <h3>eleanormurguia@gmail.com</h3>
+            </div>
         </div> 
-        <div> 
-           <p id="about-paragraph"> Eleanor is a junior studying Computer Science at Barnard College of Columbia University. She has experience in iOS, backend and frontend development, and has been a memeber of Barnard's Athena Digital Design Agency since 2015.</p> 
-        </div> 
+    </header>
+
+    <!-- About Section -->
+    <section class="success dark-background" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2></br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="about-text">Eleanor is a junior studying Computer Science at Barnard College of Columbia University. She has experience in iOS, backend and frontend development, and has been a member of Barnard's Athena Digital Design Agency since 2015.</p>
+
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-responsive profile" src="img/eleanor_profile.jpg" alt="Eleanor">
+                </div>
+            
+             <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#contact" class="btn btn-lg btn-outline">
+                        Contact
+                    </a>
+                </div>
+        </div>
+    </section>
+
+
+
+    <!-- Experience Grid Section -->
+    <section class="experience dark-background" id="experience">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Experience</h2> </br> 
+                </div>
+            </div>
+
+             <div class = "row experience-row"> 
+                <div class="col-sm-3 portfolio-item">
+                   <img class="img-responsive logo" src="img/applecart_logo.png" alt="Applecart">
+                </div>
+
+                <div class="col-sm-3 portfolio-item portfolio-text">
+                    <h3 class="titles"> Product R&D Intern</h3> 
+                    <p class="titles"> September 2017 - Present</p> 
+                </div>
+                <div class="col-sm-6 portfolio-item portfolio-text">
+                    <p> Writing web scrapers in Python, creating scripts to speed up data QA, and documentation, documentation, documentation. </p> 
+                </div>
+            </div>
+
+             <div class="row experience-row">
+                <div class="col-sm-3 portfolio-item">
+                   <img class="img-responsive logo" src="img/adda-owl-square1.png" alt="Athena Digital Design">
+                </div>
+                <div class="col-sm-3 portfolio-item portfolio-text">
+                    <h3 class="titles"> Web Designer </h3> 
+                    <p class="titles"> September 2016 - Present </p>
+                 </div>
+                <div class="col-sm-6 portfolio-item portfolio-text">
+                  <p>  Member of web design agency; designed and built websites and JavaScript programs both from scratch and using templates/libraries </p></br>
+                </div>
+            </div> 
+            <div class="row experience-row">
+                <div class="col-sm-3 portfolio-item">
+                     <img class="img-responsive logo" src="img/Birchbox_logo_B.png" alt="Birchbox"> 
+                </div>
+                <div class="col-sm-3 portfolio-item portfolio-text">
+                <h3 class="titles"> CRM Contractor </h3> 
+                <p class="titles">  June 2016 - September 2017 </p>
+
+                </div>
+                <div class="col-sm-6 portfolio-item portfolio-text">
+                    <p>  Spent the summer as an intern, then was asked back as a contractor; Produce marketing emails, create and analyze weekly reports, assisted with an ESP migration, troubleshoot HTML, CSS, XSL</p> </br>
+                </div>
+            </div>
+
+           
+            <!--download resume-->
+             <div class ="row">
+                 <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="img/Eleanor_Murguia_Resume.pdf" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects Section-->
+    <section class="experience dark-background" id="projects">
+        <div class="container"> 
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Projects</h2>
+                </div>
+            </div>
+            <div class="row">
+                 <div class="project-item bway-images col-sm-4">
+                     <img class="img-responsive logo" src="img/bwaybestie_logo.png" alt="BwayBestie">    
+                </div>
+                <div class="project-item col-sm-8"> 
+                    <h3> <a href="http:eleanormurguia.me/BwayBestie">BwayBestie </a> </h3> 
+                    <p> An iOS app that makes it easier to enter online lotteries for Broadway shows.<p> 
+                    <h5> Swift, JavaScript •  <a href="https://github.com/emurguia/BwayBestie"> Github </a></5> 
+                </div> 
+               
+            </div>
+    </div>
+    </section>
+
+
+          <!-- Skills Section -->
+    <section class="experience dark-background" id="skills">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Skills</h2>
+                </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-12 text-center">
+                    <h3> • Java • C/C++ • Swift • Python •</br></br> 
+                        • HTML • CSS • JavaScript •   </br> </br>
+                        • DataBricks • Bootstrap • WordPress • </br> </br>
+                    
+                    </h3> 
+                </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="success contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact</h2>
+                </div>
+            </div>
+            <div class="row contact-info">
+                <div class="col-lg-12 text-center contact-info">
+                </br>
+                    <h3 class="text-center"> <a href="mailto:eleanormurguia@gmail.com"> eleanormurguia@gmail.com </a> </h3>
+                    <h3 class="divider"> • </h3> 
+                    <h3 class="text-center"><a href="https://github.com/emurguia"> Github </a></h3>
+                    <h3 class="divider"> • </h3> 
+                    <h3 class="text-center"> <a href="https://www.linkedin.com/in/eleanormurguia" target="_blank">LinkedIn </a></h3>
+                 
+                </div>
+            </div>
+        </div>
+    </section>                   
+                        
+    <!-- Footer -->
+    <footer class="text-center">
         
-    </div> 
-</div> 
-
-<!---SKILLS SECTION--> 
-<div id="skills"> 
-    <h1 class="section-title"> Skills </h1> 
-    <div class="flex-container" id="language-content">
-        <h2> Languages </h2> 
-        <div> 
-<!--              <h3> Use Often </h3> 
- -->              <ul class="skills-list"> 
-                 <li> Java </li> 
-                 <li> Swift </li> 
-                 <li> C </li> 
-            </ul> 
-        </div> 
-        <div> 
-<!--             <h3> Use Occasionally </h3>
- -->             <ul class="skills-list"> 
-                 <li> HTML </li> 
-                 <li> CSS </li> 
-                 <li> JavaScript </li> 
-                 <li> C++ </li> 
-            </ul>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Built using Freelance Theme by <a href="http://startbootstrap.com" target="_blank">Start Bootstrap</a>  Copyright &copy; Eleanor Murguia 2017
+                    </div>
+                </div>
+            </div>
         </div>
-        <h2> Tools </h2>
-         <ul class="skills-list"> 
-             <li> Git/GitHub </li> 
-             <li> WordPress </li> 
-             <li> Bootstrap </li> 
-             <li> Xcode </li>  
-         </ul>
-    </div>
-  <!--   <div class="flex-container" id="tool-content">
-             <h2> Tools </h2>
-             <ul> 
-                 <li> Git/GitHub </li> 
-                 <li> WordPress </li> 
-                 <li> Bootstrap </li> 
-                 <li> Xcode </li>  
-             </ul>
-             <div> </div> 
-    </div>  -->
-</div> 
+    </footer>
 
-<!---PROJECTS SECTION--> 
-<div id="projects"> 
-    <h1 class="section-title"> Projects </h1> 
-    <div class="flex-container"> 
-        <div> 
-        	<h2> BroadwayBestie </h2> 
-        	</h3> An iOS app that makes it easier to enter online lotteries for Broadway shows.</h3> 
-        	<h4> Langagues Used: Swift, JavaScript </h4> 
-        </div> 
-    </div> 
-</div> 
-
-<!--CONTACT SECTION--> 
-<div id="contact">
-    <h1 class="section title"> Contact </h1> 
-    <div class="flex-container">
-        <div> 
-            <h2> Email </h2> 
-            <h3> eleanormurguia@gmail.com </h3> 
-        </div> 
-        <div> 
-            <h2> GitHub </h2> 
-            <a href="www.github.com/emurguia"> github.com/emurguia </a>
-        </div> 
-        <div> 
-            <h2> LinkedIn </h2> 
-            <a href="www.linkedin.com/in/eleanormurguia"> www.linkedin.com/in/eleanormurguia </a> 
-        </div> 
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
     </div>
+
+ 
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/freelancer.min.js"></script>
+
 </body>
+
 </html>

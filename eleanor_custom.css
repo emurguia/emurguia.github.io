@@ -1,0 +1,102 @@
+body{
+    background-color: #120f14;
+    color: #eef0f2;
+    font-family: 'Open Sans', Arial, sans-serif; 
+}
+
+.dark-background{
+	 background-color: #120f14;
+    color: #eef0f2;
+}
+
+.intro-text{
+	color: 	 #00ae9a;
+}
+
+.navbar-custom{
+	background-color: red;
+}
+
+header{
+	background-color: #f5f5f5;
+}
+
+
+.navbar-custom .navbar-nav li.active a, .navbar-custom .navbar-nav li.active a:active, .navbar-custom .navbar-nav li.active a:focus, .navbar-custom .navbar-nav li.active a:hover{
+	background-color: #00ae9a;
+}
+
+a, a.active, a:active, a:focus, a:hover{
+	color: #00ae9a;
+}
+
+.navbar-custom .navbar-nav li a:hover{
+	color:#00ae9a;
+}
+
+.profile{
+	width: 70%;
+	height: 70%;
+}
+
+section.success{
+	background-color: #00ae9a;
+}
+
+section.experience{
+	background-color: #f5f5f5;
+	color:#22252c;
+}
+
+section.contact{
+	background-color: #22252c;
+}
+
+.logo{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titles{
+	text-align: center;
+}
+
+h3{
+	text-transform: none;
+}
+
+.experience .btn-outline{
+	color:#00ae9a;
+	border-top-color: #00ae9a;
+	border-bottom-color: #00ae9a;
+	border-right-color: #00ae9a;
+	border-left-color: #00ae9a;
+}
+
+.btn-outline.active, .btn-outline:active, .btn-outline:focus, .btn-outline:hover{
+	background-color: #22252c;
+	color: #00ae9a;
+		border-top-color: #22252c;
+	border-bottom-color: #22252c;
+	border-right-color: #22252c;
+	border-left-color: #22252c;
+}
+
+footer .footer-below{
+	background-color: #16181d;
+}
+
+.copyright{
+	text-align: left;
+}
+
+.credit{
+	text-align: right;
+}
+
+.success a{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.btn-outline
