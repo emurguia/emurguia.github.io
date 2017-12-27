@@ -76,6 +76,10 @@ a, a.active, a:active, a:focus, a:hover{
 .intro-text{
 	color: 	 #eef0f2;
 	margin-bottom: -80px;
+	
+}
+.intro-text h1{
+	font-size: 80px;
 }
 
 .highlight{
@@ -84,8 +88,12 @@ a, a.active, a:active, a:focus, a:hover{
 
 .current-info h2{
 	margin-top: 40px;
+	letter-spacing: 1px;
 }
 
+.current-info h3{
+	font-weight: normal;
+}
 /*ABOUT*/
 
 .profile{
@@ -188,6 +196,12 @@ section.contact{
 */	border-radius: 90%;
 	display: relative;
 	margin: auto;
+}
+
+/*SKILLS*/
+#skills h4{
+	text-transform: none;
+	font-weight: normal;
 }
 
 /*CONTACT*/
