@@ -32,6 +32,16 @@ h5{
 	padding-bottom: 0px;
 }
 
+.flex-container{
+	display: flex;
+	justify-content: center;
+	height: 500px;
+}
+
+.flex-item{
+	margin: auto;
+}
+
 a, a.active, a:active, a:focus, a:hover{
 	color: #C200FB;
 }
@@ -184,6 +194,14 @@ section.contact{
 	margin-top: 15px;
 }
 
+.screenshot{
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	max-width: 240px;
+	display: none;
+}
+
 
 /*	min-width: 150px;
 */	/*padding-left: 30px;*/
@@ -203,6 +221,8 @@ section.contact{
 	text-transform: none;
 	font-weight: normal;
 }
+
+
 
 /*CONTACT*/
 .divider{
@@ -237,4 +257,8 @@ footer .footer-below{
 		margin-top: 50px;
 	}
 
+	.screenshot{
+		display: inline;
+	}
 }
+
