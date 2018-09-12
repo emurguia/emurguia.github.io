@@ -1,6 +1,7 @@
 body{
-    background-color: #120f14;
-    color: #eef0f2;
+	background-color: #EFEDEF;
+	/*background-color: #120f14;*/
+    color: #0C0F0A;
     font-family: 'Open Sans', Arial, sans-serif; 
 }
 
@@ -43,14 +44,14 @@ section.success{
 	background-color: #00ae9a;
 }
 
-section.experience{
+/* section.experience{
 	background-color: #f5f5f5;
 	color:#22252c;
-}
+} */
 
-section.contact{
+/* section.contact{
 	background-color: #22252c;
-}
+} */
 
 .logo{
 	margin-left: auto;
@@ -98,5 +99,3 @@ footer .footer-below{
 	color: #ffffff;
 	font-weight: bold;
 }
-
-.btn-outline
